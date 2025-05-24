@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body class="flex-col justify-center align-center ">
+  <main>
+    <div class="wrapper flex-col align-center justify-center">
+      <img src="images/logo.svg" alt="" aria-hidden="'true" class="logo">
+      <section class="text-body text-center">
+        <h1 class="heading">
+          We are launching <strong>soon!</strong>
+        </h1>
+        <p class="text">
+          Subscribe and get notified
+        </p>
+      </section>
+      <form action="#" novalidate class="flex-col form justify-center">
+        <div class="email-input flex-col">
+          <input type="email" placeholder="Your email address" class="border-radius">
+          <span class="error hidden">
+            <i>
+              *Please provide a valid email address
+            </i>
+          </span>
+          <span class="empty-input hidden">
+            <i>
+              *Whoops! It looks like you forgot to add your email
+            </i>
+          </span>
+        </div>
+        <button type="submit" class="border-radius">Notify Me</button>
+      </form>
+      <img src="images/illustration-dashboard.png" alt="" class="section-img">
+    </div>
+  </main>
+  <footer class="flex-col align-center">
+    <ul class="social-links flex-row align-center justify-center">
+      <li><a href="#" aria-label="facebook link"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#" aria-label="twitter link"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#" aria-label="instagram link"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+    <span class="footer-bottom">
+      &copy; Copyright Ping. All rights reserved.
+    </span>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
